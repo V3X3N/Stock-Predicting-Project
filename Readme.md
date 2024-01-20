@@ -37,5 +37,4 @@ This is a Streamlit web application for stock prediction. The application allows
 4. You will see the localhost address in the terminal
 
 ## Contributors
-- [Your Name](https://github.com/your-username)
-- [Collaborator Name](https://github.com/collaborator-username)
+- [Your Name](https://github.com/V3X3N)
