@@ -1,40 +1,56 @@
-# Stock Prediction Project
+# Stock Prediction and Analysis Project
 
-## Overview
-This is a Streamlit web application for stock prediction. The application allows users to input a stock symbol (e.g., BTC-USD, GOOG, AAPL, NFLX) and provides a time series analysis, raw data visualization, and a forecast for the selected stock.
+## Project Overview
 
-## Libraries Used
-- **Streamlit**: Used for creating the interactive web application.
-- **yfinance**: Used for downloading historical stock data.
-- **Prophet**: Used for time series forecasting.
-- **Plotly**: Used for creating interactive and visually appealing plots.
+Welcome to the Stock Prediction and Analysis Project! This comprehensive application combines cutting-edge technologies and powerful libraries to provide an in-depth analysis of stock data. Leveraging Streamlit, yfinance, Prophet, Plotly, pandas, seaborn, matplotlib, and textblob, this project offers a sophisticated user experience for understanding historical trends, making predictions, and exploring sentiment analysis.
 
-## How to Use
-1. Enter a valid stock symbol in the text input field.
-2. The application will load historical stock data using yfinance.
-3. Raw data will be displayed in a table, and a time series plot will show the closing prices over time.
-4. Use the slider to choose the number of months for the forecast.
-5. The application uses the Prophet library to generate a forecast for the selected stock.
-6. The forecast data and an interactive plot will be displayed.
+## Features
 
-## Getting Started
-1. Clone the repository to your local machine.
-   ```bash
-   git clone https://github.com/your-username/stock-prediction.git
-   cd stock-prediction
-   ```
+### 1. Dynamic Data Visualization
 
-2. Install the required dependencies.
-   ```bash
-   pip install -r requirements.txt
-   ```
+Explore historical stock data through interactive time series charts and moving average plots. Customize the date range using a user-friendly sidebar for a granular analysis.
 
-3. Run the Streamlit app.
-   ```bash
-   streamlit run app.py
-   ```
+### 2. Company Insights
 
-4. You will see the localhost address in the terminal
+Gain valuable insights into the selected company, including its sector, industry, and website. The advanced sentiment analysis provides a nuanced understanding of the company's description.
+
+### 3. Advanced Forecasting
+
+Utilize the powerful Prophet model to forecast stock prices into the future. The user-friendly interface allows you to adjust the prediction window and view the predicted trend with an interactive Plotly chart.
+
+### 4. Predictive Analytics
+
+Understand the sentiment behind the company's description using TextBlob. The sentiment score and label (positive, negative, neutral) provide a quick overview of the company's perceived sentiment.
+
+### 5. Customization and Control
+
+Fine-tune the analysis by adjusting parameters such as the moving average window and the number of prediction months. The streamlined layout ensures a seamless and personalized user experience.
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/V3X3N/Stock-Predicting-Project.git
+    ```
+
+2. Install the required libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run the Streamlit app:
+    ```bash
+    streamlit run app.py
+    ```
+
+4. Access the application through the provided localhost address in the terminal.
+
+## Usage
+
+1. Enter a valid stock symbol in the text input.
+2. Customize the date range, moving average window, and prediction months using the sidebar controls.
+3. Explore the dynamic visualizations, company insights, advanced forecasting, and predictive analytics.
 
 ## Contributors
+
 - [MKawa](https://github.com/V3X3N)
