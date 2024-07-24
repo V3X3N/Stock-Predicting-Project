@@ -160,10 +160,10 @@ fig1 = plot_plotly(m, forecast)
 
 # Add a continuous red line to separate historical data from forecast
 vertical_line = go.Scatter(x=[filtered_data['Date'].iloc[-1], filtered_data['Date'].iloc[-1]],
-                           y=[filtered_data['Close'].min(), forecast['yhat'].max()],
-                           mode='lines',
-                           line=dict(color='red', width=4),
-                           name='Historical Data / Forecast Separator')
+y=[filtered_data['Close'].min(), forecast['yhat'].max()],
+mode='lines',
+line=dict(color='red', width=4),
+name='Historical Data / Forecast Separator')
 
 fig1.add_trace(vertical_line)
 
