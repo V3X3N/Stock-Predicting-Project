@@ -29,19 +29,22 @@ Fine-tune the analysis by adjusting parameters such as the moving average window
 ## Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/V3X3N/Stock-Predicting-Project.git
-    ```
+
+   ```bash
+   git clone https://github.com/V3X3N/Stock-Predicting-Project.git
+   ```
 
 2. Install the required libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. Run the Streamlit app:
-    ```bash
-    streamlit run app.py
-    ```
+
+   ```bash
+   streamlit run main.py
+   ```
 
 4. Access the application through the provided localhost address in the terminal.
 
